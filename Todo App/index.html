@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <!-- Header Start -->
+    <div class="header">
+        <ul>
+            <li><i class="fa-solid fa-list-check"></i></li>
+            <li>TODO APP</li>
+            <li><i class="fa-solid fa-circle-user"></i></li>
+        </ul>
+    </div>
+    <!-- Header End -->
+    <!-- Add Task Start -->
+    <div class="add-task">
+        <div>
+            <input class="add-task-input" id="add-task-input-id" type="text" placeholder="  Add to do here....">
+        </div>
+        <div class="add-task-button" id="add-task-button-id">
+            <button type="button" class="button">Add <i class="fa-solid fa-circle-plus"></i></button>
+        </div>
+    </div>
+    <!-- Add Task End -->
+    <!-- Task List Start -->
+    <div class="taskListing" id="task-list-id"></div>
+    <!-- Task List End -->
+</body>
+</html>
